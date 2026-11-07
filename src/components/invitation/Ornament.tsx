@@ -39,7 +39,7 @@ export function Monogram({
     >
       <span className="absolute inset-[3px] rounded-full border border-gold/30" />
       {letters[0]}
-      <span className="mx-[0.12em] text-[0.7em] not-italic text-gold">&amp;</span>
+      <span className="mx-[0.12em] text-[0.5em] not-italic text-gold">&amp;</span>
       {letters[1]}
     </span>
   )
