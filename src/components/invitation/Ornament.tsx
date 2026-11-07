@@ -33,7 +33,7 @@ export function Monogram({
     <span
       aria-hidden="true"
    className={cn(
-  'font-monogram relative inline-flex h-36 w-36 items-center justify-center rounded-full border border-gold/70 text-2xl',
+  'font-monogram relative inline-flex h-36 w-36 items-center justify-center rounded-full border border-gold/70 text-1xl',
   className,
 )}
     >
