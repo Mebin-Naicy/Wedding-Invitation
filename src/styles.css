@@ -65,7 +65,6 @@ body {
 }
 .font-monogram {
   font-family: var(--font-monogram);
-  font-size: clamp(3rem, 14vw, 6rem);
   
 }
 @theme inline {
