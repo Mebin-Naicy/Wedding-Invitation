@@ -1,0 +1,13 @@
+/* Restore the original tracking animation without changing the existing stagger timing. */
+@keyframes story-line-original {
+  to {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+    letter-spacing: 0;
+  }
+}
+
+.reveal-ready .story.is-visible .story-line.story-line {
+  animation-name: story-line-original;
+}
