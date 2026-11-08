@@ -32,15 +32,17 @@ export function Monogram({
   return (
     <span
       aria-hidden="true"
-   className={cn(
-  'font-monogram relative inline-flex h-72 w-72 items-center justify-center rounded-full border border-gold/70 text-xl',
-  className,
-)}
+      className={cn(
+        'font-monogram relative inline-flex h-72 w-72 items-center justify-center rounded-full border border-gold/70 text-xl',
+        className,
+      )}
     >
-      <span className="absolute inset-[3px] rounded-full border border-gold/30" />
-      {letters[0]}
-      <span className="mx-[0.12em] text-[0.5em] not-italic text-gold">&amp;</span>
-      {letters[1]}
+      <span className="pointer-events-none absolute inset-[3px] rounded-full border border-gold/30" />
+      <span className="relative z-10 inline-flex max-w-[78%] items-center justify-center whitespace-nowrap text-[0.8em] leading-none">
+        {letters[0]}
+        <span className="mx-[0.1em] text-[0.5em] not-italic text-gold">&amp;</span>
+        {letters[1]}
+      </span>
     </span>
   )
 }
