@@ -413,7 +413,7 @@ body {
   }
   .reveal-ready .story.is-visible .story-line {
     animation: story-line 2s var(--ease-cinematic) forwards;
-    animation-delay: calc(0.2s + var(--i, 0) * var(--step, 0.62s));
+    animation-delay: calc(0.2s + var(--i, 0) * var(--step, 0.32s));
   }
 
   .reveal-ready .story-after {
