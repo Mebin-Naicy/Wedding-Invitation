@@ -4,7 +4,7 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-const basePath = '/Mebin-Naicy-wedding-invite'
+const basePath = '/Wedding-Invitation'
 
 export default defineConfig({
   base: `${basePath}/`,
