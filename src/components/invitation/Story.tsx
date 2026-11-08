@@ -3,7 +3,7 @@ import { useInView } from '@/lib/use-in-view'
 import { cn } from '@/lib/utils'
 import { Countdown } from './Countdown'
 
-const LINE_STEP = 0.62
+const LINE_STEP = 0.82
 
 export function Story() {
   const lines = wedding.story.lines
